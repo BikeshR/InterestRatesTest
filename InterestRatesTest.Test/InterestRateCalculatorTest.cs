@@ -13,7 +13,7 @@ namespace InterestRatesTest.Test
         public void TestGetInterestRate()
         {
             // Lower and upper bounds of each band of balance and their respective expected interest rate.
-            int[] balances = { 1, 999, 1000, 4999, 5000, 9999, 10000, 49999, 50000 };
+            uint[] balances = { 1, 999, 1000, 4999, 5000, 9999, 10000, 49999, 50000 };
             double[] interestRates = { 1, 1, 1.5, 1.5, 2, 2, 2.5, 2.5, 3 };
 
             // Loop tests through all the test values.

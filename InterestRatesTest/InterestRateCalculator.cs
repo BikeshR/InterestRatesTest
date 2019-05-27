@@ -6,7 +6,7 @@ namespace InterestRatesTest
 {
     public static class InterestRateCalculator
     {
-        public static double GetInterestRate(int balance)
+        public static double GetInterestRate(uint balance)
         {
             // £50,000+ - 3%
             if (balance >= 50000)
