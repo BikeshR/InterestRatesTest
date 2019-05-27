@@ -4,11 +4,11 @@ using System.Text;
 
 namespace InterestRatesTest
 {
-    public class InterestRateCalculator
+    public static class InterestRateCalculator
     {
-        public void GetInterestRate()
+        public static double GetInterestRate(int balance)
         {
-
+            return 0.0;
         }
     }
 }
